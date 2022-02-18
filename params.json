@@ -1,0 +1,22 @@
+[
+  {
+    "hostname": "4th-floor",
+    "domain_name": "tcd.ie",
+    "management_ip": "10.172.1.1",
+    "ospf": {
+      "process": 100,
+      "interfaces": [
+        {
+          "name": "GigabitEthernet1",
+          "area": 0
+        },
+        {
+          "name": "GigabitEthernet2",
+          "area": 10
+        }
+      ]
+    }
+  }
+
+
+  ]
